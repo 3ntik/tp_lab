@@ -7,4 +7,4 @@ def delit(a):
             mn.append(i)
             mn.append(a//i)
     return sorted(mn)
-print(delit(a)[-2] + delit(b)[-2]) #Сумма наибольших делителей кроме самого числа
+print(delit(a)[-2] - delit(b)[-2]) #Разность наибольших делителей кроме самого числа
